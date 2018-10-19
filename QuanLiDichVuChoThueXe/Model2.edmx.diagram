@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5bedc7ab632d4d0e9973c1c49972b29c" Name="Diagram1">
+        <EntityTypeShape EntityType="QL_ThuexeotoModel1.tbl_BANGLAI" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ThuexeotoModel1.tbl_KHACHHANG" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ThuexeotoModel1.tbl_LOAIXE" Width="1.5" PointX="5" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ThuexeotoModel1.tbl_PHIEUTHUE" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_ThuexeotoModel1.tbl_THONGTINXE" Width="1.5" PointX="0.875" PointY="4" IsExpanded="true" />
+        <AssociationConnector Association="QL_ThuexeotoModel1.FK_LOAIXE_BANGLAI" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_ThuexeotoModel1.FK_PHIEUTHUE_KHACHHANG" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_ThuexeotoModel1.FK_tbl_PHIEUTHUE_tbl_THONGTINXE" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
